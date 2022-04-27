@@ -1,4 +1,5 @@
 Execute Collections With Environment in Postman on Docker
+
 This template consists of How to Execute Collections With Environment in Postman on Docker.
  
 ## Steps for execution
@@ -21,6 +22,6 @@ Run the command to execute postman on Docker:-
 
 Technologies used
 
-Postman , Docker
+Postman
 
-For a better understanding, please refer to the blog:- https://blog.knoldus.com/wp-admin/post.php?post=158851&action=edit
+For a better understanding, please refer to the blog:- 
