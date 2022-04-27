@@ -14,7 +14,7 @@ Now we have to pull the latest Docker image from docker hub with command :-
   
 Clone the repository
 
-3)    
+3)    https://github.com/knoldus/postman-api-platform/tree/Execute-postman-with-environment
 
 Run the command to execute postman on Docker:-
 
