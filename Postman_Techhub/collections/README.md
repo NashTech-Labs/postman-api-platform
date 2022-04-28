@@ -18,7 +18,7 @@ Clone the repository
 
 Run the command to execute postman on Docker:-
 
-4) sudo docker run -v /home/knoldus/Desktop/Docker/collections:/etc/newman -t postman/newman:latest run     "PostmanAssignment.postman_collection.json" --environment="MyEnvironment.postman_environment.json
+4) sudo docker run -v /home/knoldus/Desktop/Docker/collections:/etc/newman -t postman/newman:latest run     "PostmanAssignment.postman_collection.json" --environment="MyEnvironment.postman_environment.json"
 
 Technologies used
 
