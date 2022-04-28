@@ -11,6 +11,7 @@ This template consists of How to Execute Collections With Environment in Postman
 ## Scenarios when Environment are required 
 
 When we want to differentiate between the requests.
+
 Change the value value of the key value pairs and the changes are reflected in our requests.
 
  
