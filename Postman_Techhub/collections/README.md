@@ -1,4 +1,4 @@
-##Execute Collections With Environment in Postman on Docker
+## Execute Collections with Environment on Docker
 
 We use environment to group related sets of values together and manage access to shared Postman data if you are working as part of a team.
 
