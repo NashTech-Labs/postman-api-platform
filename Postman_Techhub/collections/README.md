@@ -37,7 +37,7 @@ Run the command to execute postman on Docker:-
 
 **Tool**   Postman
 
-**Language Used** Json
+**Language Used** Javascript 
 
 
 ## For a better understanding, please refer to the blog Link :- 
