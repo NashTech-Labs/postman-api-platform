@@ -40,4 +40,4 @@ Run the command to execute postman on Docker:-
 **Language Used** Javascript 
 
 
-## For a better understanding, please refer to the blog Link :- 
+## For a better understanding, please refer to the blog Link :- https://blog.knoldus.com/how-to-run-postman-with-environment-on-docker/
