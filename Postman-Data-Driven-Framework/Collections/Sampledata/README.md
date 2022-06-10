@@ -12,7 +12,7 @@ Data-Driven testing, therefore conceptualizes an automated framework where testi
 
 # Steps for Execution
 
-Clone the Repository
+Clone the Repository  https://github.com/knoldus/postman-api-platform/tree/Postman-Data-Driven-Framework
 
 
 # Technology used 
