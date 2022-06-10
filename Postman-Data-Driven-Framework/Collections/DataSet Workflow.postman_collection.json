@@ -1,0 +1,78 @@
+{
+	"info": {
+		"_postman_id": "4367ba0a-ff19-4024-95bd-a0d60d04c1dc",
+		"name": "DataSet Workflow",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19637823"
+	},
+	"item": [
+		{
+			"name": "https://requestb.in/1dcigd51",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							" // make a variable",
+							"var companies=pm.environment.get(\"companies\");",
+							"// if condition",
+							"if(!companies)",
+							"{",
+							"    companies= [\"Gooogle\",\"Facebook\",\"Yahoo!\",\"Amazon\"];",
+							"}",
+							"",
+							"var CurrentCompany=companies.shift();",
+							"pm.environment.set(\"company\",CurrentCompany);",
+							"pm.environment.set(\"companies\",companies);",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var companies=pm.environment.get(\"companies\");",
+							"",
+							"if(companies && companies.length > 0)",
+							"{",
+							"postman.setNextRequest(\"https://requestb.in/1dcigd51\");",
+							"}",
+							"else",
+							"{",
+							"    postman.setNextRequest(null);",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// step 1\n{\n    \"name\": \"{{company}}\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://requestb.in/1dcigd51",
+					"protocol": "https",
+					"host": [
+						"requestb",
+						"in"
+					],
+					"path": [
+						"1dcigd51"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
