@@ -1,4 +1,4 @@
-#How to Perform Data Driven Testing in Postman.
+# How to Perform Data Driven Testing in Postman
 
 Data Driven Testing is a software testing method in which test data is stored in table or spreadsheet format. Data driven testing allows testers to input a single test script that can execute tests for all test data from a table and expect the test output in the same table.
 
