@@ -14,4 +14,11 @@ Data-Driven testing, therefore conceptualizes an automated framework where testi
 
 Clone the Repository
 
+
+# Technology used 
+
+Tool : Postman
+
+Language : Javascript
+
 For Better Understanding Please Refer the Blog Link : 
