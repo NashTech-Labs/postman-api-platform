@@ -12,8 +12,15 @@ Data-Driven testing, therefore conceptualizes an automated framework where testi
 
 # Steps for Execution
 
-Clone the Repository  https://github.com/knoldus/postman-api-platform/tree/Postman-Data-Driven-Framework
+1) Postman should be installed on your system
 
+2) Clone the Repository  https://github.com/knoldus/postman-api-platform/tree/Postman-Data-Driven-Framework
+
+3) Click on Collection and Select run collection.
+
+4) Click on Select file
+
+5) After selecting the file click on Run Collection.   
 
 # Technology used 
 
