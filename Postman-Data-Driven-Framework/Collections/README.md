@@ -16,11 +16,13 @@ Data-Driven testing, therefore conceptualizes an automated framework where testi
 
 2) Clone the Repository  https://github.com/knoldus/postman-api-platform/tree/Postman-Data-Driven-Framework
 
-3) Click on Collection and Select run collection.
+3) Go to Postman and click on inport option to import the collection by clicking on folder or by selecting file option.
 
-4) Click on Select file
+4) Click on Collection and Select run collection.
 
-5) After selecting the file click on Run Collection.   
+5) Click on Select file
+
+6) After selecting the file click on Run Collection.   
 
 # Technology used 
 
@@ -28,4 +30,4 @@ Tool : Postman
 
 Language : Javascript
 
-For Better Understanding Please Refer the Blog Link : 
+For Better Understanding Please Refer the Blog Link :- 
